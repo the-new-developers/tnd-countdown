@@ -9,7 +9,9 @@ const sayings = [
     'I can party (virtually) with my fellow nerds',
     'the suffering ends',
     'the tears turn into happy tears',
-    'I can finally close my IDE'
+    'I can finally close my IDE',
+    'I can take this headset off',
+    'I can request Wonderwall'
 ]
 
 function switchText(){
