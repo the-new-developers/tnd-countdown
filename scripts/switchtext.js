@@ -17,7 +17,12 @@ const sayings = [
     'Kevin Browne tells us he’s kidding',
     'Brian Minaji creates SkyNet... using only Excel',
     'this site finishes installing the key-logger on my pc',
-    `we see the pilot episode of the new sitcom where Andrew finds out he's actually descended from royalty and then he and Rodney form a detective agency and the show is called "Barnes & Noble"`
+    `we see the pilot episode of the new sitcom where Andrew finds out he's actually descended from royalty and then he and Rodney form a detective agency and the show is called "Barnes & Noble"`,
+    'I can delete Zoom off my PC FOREVER',
+    'the burning goes away',
+    'the cookies are done',
+    'they bring back the McD.L.T.',
+    `Mark Yendt pulls the latex mask off and I realize I've actually been learning about binary trees from Robert Plant`
 ]
 
 function switchText(){
