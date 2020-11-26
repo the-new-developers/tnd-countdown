@@ -43,5 +43,5 @@ function getTimeRemaining(endtime) {
     const timeinterval = setInterval(updateClock, 1000);
   }
   
-  const deadline = new Date(Date.parse("2020-12-18 19:00 -05:00"));
+  const deadline = new Date(Date.UTC(2020, 11, 19, 0, 0, 0));
   initializeClock('clockdiv', deadline);
