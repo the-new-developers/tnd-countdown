@@ -1,0 +1,26 @@
+#skeleton-x {
+    animation: x 13s linear infinite alternate;
+    width: 156px;
+    height: 156px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#skeleton-y {
+    animation: y 7s linear infinite alternate;
+    width: 156px;
+    height: 156px;
+}
+
+@keyframes x {
+    100% {
+        transform: translateX( calc(100vw - 156px));
+    }
+}
+
+@keyframes y {
+    100% {
+        transform: translateY( calc(100vh - 156px));
+    }
+}

@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    background: #262727;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+h1{
+  color:#709255;
+  font-weight: 100;
+  font-size: 35px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+    font-size: 40px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	display: inline-block;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#corner-cat {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#dog-butt {
+    position: absolute;
+    left: 5vw;
+    bottom: 5vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer > a {
+    color:#709255;
+}
+
+footer > a:hover {
+    color: #CC522C;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#special-text{
+    color: #CC522C;
+    text-decoration: underline;
+    transition: all 0.3s;
+    opacity: 1
+}
+
+#special-text.hide {
+    opacity: 0;
+}
+
+#special-text:hover {
+    color: white;
+}
