@@ -15,7 +15,7 @@ h1{
   margin: 40px 0px 20px;
 }
 
-h1, h3 {
+h1, h3, h4 {
     color:#709255;
 }
 
@@ -76,7 +76,7 @@ footer > a:hover {
 	font-size: 16px;
 }
 
-#special-text, h3>a{
+#special-text, h3>a, h4>a{
     color: #CC522C;
     text-decoration: underline;
     transition: all 0.3s;
@@ -87,6 +87,6 @@ footer > a:hover {
     opacity: 0;
 }
 
-#special-text:hover, h3>a:hover {
+#special-text:hover, h3>a:hover, h4>a:hover {
     color: white;
 }
